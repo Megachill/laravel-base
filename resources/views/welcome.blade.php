@@ -81,7 +81,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel-Base
+                    Megachills'
+                </div>
+                <div class="links m-b-md">
+                    <p>Laravel Base Application</p>
                 </div>
             </div>
         </div>

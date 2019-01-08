@@ -11,6 +11,14 @@
 |
 */
 
+if (app()->environment() !== 'production')
+{
+    if (env('APP_DEBUG'))
+    {
+        Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+    }
+}
+
 Route::get('/', function () {
     return view('welcome');
 });
